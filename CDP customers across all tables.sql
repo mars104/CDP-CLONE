@@ -3,7 +3,7 @@
 WITH recent_customers AS (
     SELECT *
    FROM `dmn01-cussoi-bld-01-ccd8.dmn01_cus_ccs_view.customer_view` 
-    where customer_id = '94ab21c4-34a8-4c6b-9b60-0c784760d54e'
+--    where customer_id = '94ab21c4-34a8-4c6b-9b60-0c784760d54e'
    ORDER BY last_modified_timestamp DESC
   LIMIT 1000
 ),
